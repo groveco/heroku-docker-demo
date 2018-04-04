@@ -4,6 +4,6 @@ COPY ./index.js ./index.js
 
 EXPOSE 3000
 
-ENV MESSAGE="foo bar"
+ENV MESSAGE="Hello World!"
 
 CMD ["node", "index.js"]
